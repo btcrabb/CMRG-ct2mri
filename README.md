@@ -92,3 +92,5 @@ Now that each of the views has been generated, export the files as DICOMs. Long-
 ## Step 4: Format DICOMs to be CIM compatible
 
 Use the notebook ct2mri.ipynb to change the DICOMs exported from Osirix into a CIM compatible format. This notebook reformats the DICOMs to be organized by time, instead of by location in space. Furthermore, it adds necessary DICOM header tags (such as trigger time, R-R interval, etc). After this step, the images may be loaded into CIM! 
+
+![Alt text](figures/cim.png?raw=true "CIM")

@@ -15,6 +15,8 @@ Project Organization
     │   ├── osirix         <- Dicoms (by cardiac view) generated in Osirix
     │   └── CIM ready      <- Dicoms ready for CIM
     |
+    ├── figures            <- Images used in this readme.md
+    |
     ├── nii2dcm.ipynb      <- Notebook for generating DICOMs from nii files
     │
     └── ct2mri.ipynb       <- Notebook for converting Osirix export into CIM compatible DICOM files

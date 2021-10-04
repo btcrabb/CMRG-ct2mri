@@ -32,7 +32,8 @@ These directions lay out step by step instructions for generating CIM compatible
 
 ## Step 1: Download DICOM and NII files for each patient
 
-The directory structure originally used with these scripts is shown below. It is suggested that you format your directories accordingly; however, different input directories can be specified in the corresponding jupyter notebooks. For this workflow, each .nii file should correspond to one phase in the CT. For example, each patient in my dataset had 10 .nii files, corresponding to 10 temporal positions over the course of one R-R interval. 
+The directory structure originally used with these scripts is shown below. It is suggested that you format your directories accordingly; however, different input directories can be specified in the corresponding jupyter notebooks. For this workflow, each .nii file should correspond to one phase in the CT. For example, each patient in my dataset had 10 .nii files, corresponding to 10 temporal positions over the course of one R-R interval.
+
 ------------
 
     └── data
